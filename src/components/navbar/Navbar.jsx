@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
 
         <div className="flex items-center gap-3">
-          <a href="/"><img src="src/assets/logo.png" alt="Recipes Logo" className="w-12 h-12 object-contain" /></a>
+          <Link to="/"><img src="src/assets/logo.png" alt="Recipes Logo" className="w-12 h-12 object-contain" /></Link>
           <h1 className="text-2xl font-bold tracking-wide">
             Recipes
           </h1>
